@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
-import { CssBaseline, Slide, useScrollTrigger } from "@material-ui/core";
+import { Box, Slide, useScrollTrigger } from "@material-ui/core";
 
 interface Props {
   window?: () => Window;
@@ -26,8 +26,13 @@ const HideOnScroll = (props: Props) => {
 
 const useStyles = makeStyles({
   root: {
-    width: 1400,
+    display: "flex",
+    marginTop: "8px",
     maxWidth: "100%",
+  },
+  tabs: {
+    margin: "auto",
+    width: "80%",
   },
 });
 
@@ -36,51 +41,53 @@ const Navbar: React.FC<Props> = (props: Props) => {
 
   return (
     <>
-      <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar
-          className={classes.root}
-          color="default"
-          style={{ alignItems: "center" }}
-        >
-          <Toolbar>
-            <Button href="/">halpi's page</Button>
-            <AnchorLink
-              href="#about"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-              }}
+        <AppBar className={classes.root} color="default">
+          <Toolbar className={classes.tabs}>
+            <Box position="absolute" marginLeft="10px">
+              <Button href="/">halpi's page</Button>
+            </Box>
+            <Box
+              color="blue"
+              style={{ flexGrow: 1, textAlign: "right", marginRight: "10px" }}
             >
-              <Button>About</Button>
-            </AnchorLink>
-            <AnchorLink
-              href="#skills"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-              }}
-            >
-              <Button color="inherit">Skills</Button>
-            </AnchorLink>
-            <AnchorLink
-              href="#works"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-              }}
-            >
-              <Button color="inherit">Works</Button>
-            </AnchorLink>
-            <AnchorLink
-              href="#contacts"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-              }}
-            >
-              <Button color="inherit">Contacts</Button>
-            </AnchorLink>
+              <AnchorLink
+                href="#about"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <Button color="inherit">About</Button>
+              </AnchorLink>
+              <AnchorLink
+                href="#skills"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <Button color="inherit">Skills</Button>
+              </AnchorLink>
+              <AnchorLink
+                href="#works"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <Button color="inherit">Works</Button>
+              </AnchorLink>
+              <AnchorLink
+                href="#contacts"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <Button color="inherit">Contacts</Button>
+              </AnchorLink>
+            </Box>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
