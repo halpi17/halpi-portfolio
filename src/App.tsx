@@ -1,11 +1,11 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import MyAvatar from './components/MyAvatar'
-import About from './components/About'
-import Skills from './components/Skills'
-import Works from './components/Works'
-import Contact from './components/Contact'
-import ScrollUp from './utils/ScrollUp'
+import React from "react";
+import Navbar from "./components/Navbar";
+import MyAvatar from "./components/MyAvatar";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Works from "./components/Works";
+import Contacts from "./components/Contacts";
+import ScrollUp from "./utils/ScrollUp";
 
 const App: React.FC = () => {
   return (
@@ -16,22 +16,21 @@ const App: React.FC = () => {
       <section>
         <MyAvatar />
       </section>
-      {/* // 「section」タグで囲み、id属性を付与 */}
-      <section id='about'>
+      <section id="about">
         <About />
       </section>
-      <section id='skills'>
+      <section id="skills">
         <Skills />
       </section>
-      <section id='works'>
+      <section id="works">
         <Works />
       </section>
-      <section id='contact'>
-        <Contact />
+      <section id="contacts">
+        <Contacts />
       </section>
       <ScrollUp />
     </>
   );
-}
+};
 
 export default App;

@@ -1,23 +1,23 @@
-import React from 'react'
-import Box from '@material-ui/core/Box'
-import Typography from '@material-ui/core/Typography'
+import React from "react";
+import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
 
-import { makeStyles } from '@material-ui/core/styles'
-import List from '@material-ui/core/List'
-import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
-import ListItemAvatar from '@material-ui/core/ListItemAvatar'
-import Avatar from '@material-ui/core/Avatar'
-import FolderIcon from '@material-ui/icons/Folder'
+import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem, { ListItemProps } from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItemAvatar from "@material-ui/core/ListItemAvatar";
+import Avatar from "@material-ui/core/Avatar";
+import FolderIcon from "@material-ui/icons/Folder";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: 770,
-    maxWidth: '100%',
+    maxWidth: "100%",
   },
 }));
 
-function ListItemLink(props: ListItemProps<'a', { button?: true }>) {
+function ListItemLink(props: ListItemProps<"a", { button?: true }>) {
   return <ListItem button component="a" {...props} />;
 }
 
@@ -27,43 +27,39 @@ const Works: React.FC = () => {
   return (
     <>
       <Box p={2}>
-        <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
-            Works
-          </Typography>
+        <Box display="flex" justifyContent="center" p={1}>
+          <Typography variant="h4">Works</Typography>
         </Box>
-        <Box display='flex' justifyContent='center' p={1} >
+        <Box display="flex" justifyContent="center" p={1}>
           <List className={classes.root}>
             <ListItem>
-              {/* // GitHubリポジトリなどのURLを貼る */}
-              <ListItemLink href='#'>
+              <ListItemLink href="#">
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                {/* // 「primary」に作品名、「secondary」に説明文を書く */}
-                <ListItemText primary='Work1' secondary='Work1です。' />
+                <ListItemText primary="Work1" secondary="Work1です。" />
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href='#'>
+              <ListItemLink href="#">
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work2' secondary='Work2です。' />
+                <ListItemText primary="Work2" secondary="Work2です。" />
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href='#'>
+              <ListItemLink href="#">
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work3' secondary='Work3です。' />
+                <ListItemText primary="Work3" secondary="Work3です。" />
               </ListItemLink>
             </ListItem>
           </List>
@@ -71,6 +67,6 @@ const Works: React.FC = () => {
       </Box>
     </>
   );
-}
+};
 
 export default Works;
