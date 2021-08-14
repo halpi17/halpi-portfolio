@@ -39,8 +39,10 @@ const Contacts: React.FC = () => {
         <Box display="flex" justifyContent="center" p={1}>
           <Typography variant="h4">Contacts</Typography>
         </Box>
-        <Box display="flex" justifyContent="center" p={1}>
-          <Typography variant="h5">Follow me!</Typography>
+        <Box display="flex" justifyContent="center" color="red" p={1}>
+          <Typography variant="h5" color="inherit">
+            Follow me!
+          </Typography>
         </Box>
         <Box
           className={classes.root}
@@ -64,8 +66,10 @@ const Contacts: React.FC = () => {
             </Avatar>
           </Link> */}
         </Box>
-        <Box display="flex" justifyContent="center" p={1}>
-          <Typography variant="h5">E-mail</Typography>
+        <Box display="flex" justifyContent="center" color="red" p={1}>
+          <Typography variant="h5" color="inherit">
+            E-mail
+          </Typography>
         </Box>
         <Box
           className={classes.root}

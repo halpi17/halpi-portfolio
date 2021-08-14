@@ -1,0 +1,8 @@
+.header {
+  position: relative;
+  text-align: center;
+  background: url(https://picsum.photos/2000/1500);
+  color: #333;
+  background-blend-mode: color-burn;
+  background-size: cover;
+}

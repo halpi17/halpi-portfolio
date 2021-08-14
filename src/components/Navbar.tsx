@@ -28,7 +28,6 @@ const useStyles = makeStyles({
   root: {
     display: "flex",
     marginTop: "8px",
-    maxWidth: "100%",
   },
   tabs: {
     margin: "auto",
@@ -45,7 +44,9 @@ const Navbar: React.FC<Props> = (props: Props) => {
         <AppBar className={classes.root} color="default">
           <Toolbar className={classes.tabs}>
             <Box position="absolute" marginLeft="10px">
-              <Button href="/">halpi's page</Button>
+              <Button href="https://halpi17.github.io/halpi-portfolio/">
+                halpi's page
+              </Button>
             </Box>
             <Box
               color="blue"
