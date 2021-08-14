@@ -46,7 +46,7 @@ const Works: React.FC = () => {
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href="#">
+              <ListItemLink href="https://github.com/halpi17/django-blog">
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
@@ -59,7 +59,7 @@ const Works: React.FC = () => {
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href="#">
+              <ListItemLink href="https://github.com/halpi17/halpi-portfolio">
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
@@ -68,6 +68,19 @@ const Works: React.FC = () => {
                 <ListItemText
                   primary="ポートフォリオサイト"
                   secondary="TypeScript と React を用いて本ポートフォリオサイトを作成しました．"
+                />
+              </ListItemLink>
+            </ListItem>
+            <ListItem>
+              <ListItemLink href="#">
+                <ListItemAvatar>
+                  <Avatar>
+                    <FolderIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText
+                  primary="漢字版テトリス"
+                  secondary="学部時代，講義の中で Java を用いてチーム開発したものがこの漢字版テトリスです．"
                 />
               </ListItemLink>
             </ListItem>

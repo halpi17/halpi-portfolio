@@ -9,6 +9,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import Avatar from "@material-ui/core/Avatar";
 import { green, blue, purple, grey } from "@material-ui/core/colors";
 
+import { SiQiita } from "react-icons/si";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -64,11 +66,11 @@ const Contacts: React.FC = () => {
               <GitHubIcon />
             </Avatar>
           </Link>
-          {/* <Link href="#" color="inherit">
-            <Avatar className={classes.purple}>
-              <GitHubIcon />
+          <Link href="https://qiita.com/halpi" color="inherit">
+            <Avatar className={classes.green}>
+              <SiQiita />
             </Avatar>
-          </Link> */}
+          </Link>
         </Box>
         <Box display="flex" justifyContent="center" color="red" p={1}>
           <Typography variant="h5" color="inherit">
@@ -82,7 +84,7 @@ const Contacts: React.FC = () => {
           p={1}
         >
           <Link color="inherit">
-            <Avatar className={classes.green}>
+            <Avatar className={classes.purple}>
               <MailIcon />
             </Avatar>
           </Link>

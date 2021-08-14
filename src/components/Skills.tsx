@@ -79,9 +79,9 @@ const Skills: React.FC = () => {
             <Typography variant="h5">Pablications</Typography>
           </Box>
           <Box display="flex" justifyContent="center" p={1}>
-            <CardContent>
-              <Typography>
-                ・JSAI2021 - 2021年度 人工知能学会全国大会（第35回）
+            <ul>
+              <li>
+                JSAI2021 - 2021年度 人工知能学会全国大会（第35回）
                 <br />
                 *西山 朋貴, 安藤 一秋,
                 <strong>
@@ -89,8 +89,8 @@ const Skills: React.FC = () => {
                 </strong>
                 , 4J3-GS-6f-04, 4pages, 2021
                 <br />
-              </Typography>
-            </CardContent>
+              </li>
+            </ul>
           </Box>
         </Box>
       </Box>
