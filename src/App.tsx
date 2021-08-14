@@ -18,13 +18,16 @@ const App: React.FC = () => {
       </section>
       {/* Todo: MyAbatar, Aboutコンポーネント一つにまとめる */}
       <div className="header">
-        <section>
-          <MyAvatar />
-        </section>
-        <section id="about">
-          <About />
-          <Waves />
-        </section>
+        <div className="inner-header"></div>
+        <div className="bg-box">
+          <section>
+            <MyAvatar />
+          </section>
+          <section id="about">
+            <About />
+          </section>
+        </div>
+        <Waves />
       </div>
       <section id="skills">
         <Skills />

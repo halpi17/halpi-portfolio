@@ -7,7 +7,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Avatar from "@material-ui/core/Avatar";
-import { green, blue, purple } from "@material-ui/core/colors";
+import { green, blue, purple, grey } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
   purple: {
     color: theme.palette.getContrastText(purple[500]),
     backgroundColor: purple[500],
+  },
+  grey: {
+    color: theme.palette.getContrastText(grey[900]),
+    backgroundColor: grey[900],
   },
 }));
 
@@ -56,7 +60,7 @@ const Contacts: React.FC = () => {
             </Avatar>
           </Link>
           <Link href="https://github.com/halpi17" color="inherit">
-            <Avatar className={classes.purple}>
+            <Avatar className={classes.grey}>
               <GitHubIcon />
             </Avatar>
           </Link>

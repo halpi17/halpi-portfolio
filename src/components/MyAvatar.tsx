@@ -18,7 +18,7 @@ const MyAvatar: React.FC = () => {
 
   return (
     <>
-      <Box mt={2} p={2}>
+      <Box p={2}>
         <Box display="flex" justifyContent="center" p={1}>
           <Avatar
             alt="はるぴー / halpi"
@@ -27,7 +27,7 @@ const MyAvatar: React.FC = () => {
           />
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
-          <Typography variant="h5">はるぴー / halpi</Typography>
+          <Typography variant="h5">Name : はるぴー / halpi</Typography>
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Typography variant="body1">Web Enginner</Typography>
