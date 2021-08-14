@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/halpi-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/halpi-portfolio/static/js/main.0bc5dadb.chunk.js",
-    "main.js.map": "/halpi-portfolio/static/js/main.0bc5dadb.chunk.js.map",
-    "runtime-main.js": "/halpi-portfolio/static/js/runtime-main.ec99d321.js",
-    "runtime-main.js.map": "/halpi-portfolio/static/js/runtime-main.ec99d321.js.map",
-    "static/js/2.60776a67.chunk.js": "/halpi-portfolio/static/js/2.60776a67.chunk.js",
-    "static/js/2.60776a67.chunk.js.map": "/halpi-portfolio/static/js/2.60776a67.chunk.js.map",
-    "static/js/3.c513f6af.chunk.js": "/halpi-portfolio/static/js/3.c513f6af.chunk.js",
-    "static/js/3.c513f6af.chunk.js.map": "/halpi-portfolio/static/js/3.c513f6af.chunk.js.map",
+    "main.css": "/halpi-portfolio/static/css/main.e840a003.chunk.css",
+    "main.js": "/halpi-portfolio/static/js/main.ce06750f.chunk.js",
+    "main.js.map": "/halpi-portfolio/static/js/main.ce06750f.chunk.js.map",
+    "runtime-main.js": "/halpi-portfolio/static/js/runtime-main.c316a5ca.js",
+    "runtime-main.js.map": "/halpi-portfolio/static/js/runtime-main.c316a5ca.js.map",
+    "static/js/2.98f35238.chunk.js": "/halpi-portfolio/static/js/2.98f35238.chunk.js",
+    "static/js/2.98f35238.chunk.js.map": "/halpi-portfolio/static/js/2.98f35238.chunk.js.map",
+    "static/js/3.bd1366d8.chunk.js": "/halpi-portfolio/static/js/3.bd1366d8.chunk.js",
+    "static/js/3.bd1366d8.chunk.js.map": "/halpi-portfolio/static/js/3.bd1366d8.chunk.js.map",
     "index.html": "/halpi-portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/halpi-portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.60776a67.chunk.js.LICENSE.txt": "/halpi-portfolio/static/js/2.60776a67.chunk.js.LICENSE.txt",
+    "static/css/main.e840a003.chunk.css.map": "/halpi-portfolio/static/css/main.e840a003.chunk.css.map",
+    "static/js/2.98f35238.chunk.js.LICENSE.txt": "/halpi-portfolio/static/js/2.98f35238.chunk.js.LICENSE.txt",
     "static/media/my_avatar.b1b670e9.jpg": "/halpi-portfolio/static/media/my_avatar.b1b670e9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec99d321.js",
-    "static/js/2.60776a67.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0bc5dadb.chunk.js"
+    "static/js/runtime-main.c316a5ca.js",
+    "static/js/2.98f35238.chunk.js",
+    "static/css/main.e840a003.chunk.css",
+    "static/js/main.ce06750f.chunk.js"
   ]
 }
