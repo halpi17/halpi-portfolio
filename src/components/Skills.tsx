@@ -4,11 +4,24 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import { CardMedia } from "@material-ui/core";
+
+import pythonImg from "../static/images/python.png";
+import cCppImg from "../static/images/c_cpp.png";
+import jsTsReactImg from "../static/images/js_ts_react.png";
+import javaImg from "../static/images/java.png";
 
 const useStyles = makeStyles({
   root: {
+    display: "flex",
+    alignItems: "center",
     width: 730,
     maxWidth: "100%",
+  },
+  mainTechnologies: {
+    maxWidth: "120px",
+    maxHeight: "120px",
+    marginLeft: "3px",
   },
 });
 
@@ -26,6 +39,12 @@ const Skills: React.FC = () => {
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Card className={classes.root}>
+            <CardMedia
+              className={classes.mainTechnologies}
+              component="img"
+              image={pythonImg}
+              title="Python"
+            />
             <CardContent>
               <Typography variant="h6">Python</Typography>
               <Typography color="textSecondary">
@@ -39,6 +58,12 @@ const Skills: React.FC = () => {
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Card className={classes.root}>
+            <CardMedia
+              className={classes.mainTechnologies}
+              component="img"
+              image={cCppImg}
+              title="C / C++"
+            />
             <CardContent>
               <Typography variant="h6">C / C++</Typography>
               <Typography color="textSecondary">
@@ -50,6 +75,12 @@ const Skills: React.FC = () => {
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Card className={classes.root}>
+            <CardMedia
+              className={classes.mainTechnologies}
+              component="img"
+              image={jsTsReactImg}
+              title="JavaScript / TypeScript / React"
+            />
             <CardContent>
               <Typography variant="h6">
                 JavaScript / TypeScript / React
@@ -64,6 +95,12 @@ const Skills: React.FC = () => {
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Card className={classes.root}>
+            <CardMedia
+              className={classes.mainTechnologies}
+              component="img"
+              image={javaImg}
+              title="Java"
+            />
             <CardContent>
               <Typography variant="h6">Java</Typography>
               <Typography color="textSecondary">
