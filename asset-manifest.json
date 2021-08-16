@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/halpi-portfolio/static/css/main.03e14581.chunk.css",
-    "main.js": "/halpi-portfolio/static/js/main.99c741b0.chunk.js",
-    "main.js.map": "/halpi-portfolio/static/js/main.99c741b0.chunk.js.map",
-    "runtime-main.js": "/halpi-portfolio/static/js/runtime-main.37cd8a7a.js",
-    "runtime-main.js.map": "/halpi-portfolio/static/js/runtime-main.37cd8a7a.js.map",
-    "static/js/2.a513f6ad.chunk.js": "/halpi-portfolio/static/js/2.a513f6ad.chunk.js",
-    "static/js/2.a513f6ad.chunk.js.map": "/halpi-portfolio/static/js/2.a513f6ad.chunk.js.map",
-    "static/js/3.08b4ca51.chunk.js": "/halpi-portfolio/static/js/3.08b4ca51.chunk.js",
-    "static/js/3.08b4ca51.chunk.js.map": "/halpi-portfolio/static/js/3.08b4ca51.chunk.js.map",
+    "main.js": "/halpi-portfolio/static/js/main.4ea8b65f.chunk.js",
+    "main.js.map": "/halpi-portfolio/static/js/main.4ea8b65f.chunk.js.map",
+    "runtime-main.js": "/halpi-portfolio/static/js/runtime-main.3cf5bd3d.js",
+    "runtime-main.js.map": "/halpi-portfolio/static/js/runtime-main.3cf5bd3d.js.map",
+    "static/js/2.c256e488.chunk.js": "/halpi-portfolio/static/js/2.c256e488.chunk.js",
+    "static/js/2.c256e488.chunk.js.map": "/halpi-portfolio/static/js/2.c256e488.chunk.js.map",
+    "static/js/3.6812eb25.chunk.js": "/halpi-portfolio/static/js/3.6812eb25.chunk.js",
+    "static/js/3.6812eb25.chunk.js.map": "/halpi-portfolio/static/js/3.6812eb25.chunk.js.map",
     "index.html": "/halpi-portfolio/index.html",
     "static/css/main.03e14581.chunk.css.map": "/halpi-portfolio/static/css/main.03e14581.chunk.css.map",
-    "static/js/2.a513f6ad.chunk.js.LICENSE.txt": "/halpi-portfolio/static/js/2.a513f6ad.chunk.js.LICENSE.txt",
-    "static/media/my_avatar.b1b670e9.jpg": "/halpi-portfolio/static/media/my_avatar.b1b670e9.jpg"
+    "static/js/2.c256e488.chunk.js.LICENSE.txt": "/halpi-portfolio/static/js/2.c256e488.chunk.js.LICENSE.txt",
+    "static/media/java.ae4429bc.png": "/halpi-portfolio/static/media/java.ae4429bc.png",
+    "static/media/js_ts_react.e719559f.png": "/halpi-portfolio/static/media/js_ts_react.e719559f.png",
+    "static/media/my_avatar.b1b670e9.jpg": "/halpi-portfolio/static/media/my_avatar.b1b670e9.jpg",
+    "static/media/python.29445d18.png": "/halpi-portfolio/static/media/python.29445d18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.37cd8a7a.js",
-    "static/js/2.a513f6ad.chunk.js",
+    "static/js/runtime-main.3cf5bd3d.js",
+    "static/js/2.c256e488.chunk.js",
     "static/css/main.03e14581.chunk.css",
-    "static/js/main.99c741b0.chunk.js"
+    "static/js/main.4ea8b65f.chunk.js"
   ]
 }
